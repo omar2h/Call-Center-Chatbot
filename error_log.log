@@ -1,0 +1,341 @@
+23-07-2020:02:17:06,236 ERROR [app.py:1892] Exception on / [GET]
+Traceback (most recent call last):
+  File "e:\college\training\chatbot\call center bot\env\lib\site-packages\flask\app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "e:\college\training\chatbot\call center bot\env\lib\site-packages\flask\app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "e:\college\training\chatbot\call center bot\env\lib\site-packages\flask\app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "e:\college\training\chatbot\call center bot\env\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "e:\college\training\chatbot\call center bot\env\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "e:\college\training\chatbot\call center bot\env\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "E:\College\Training\Chatbot\Call Center Bot\chatbot.py", line 30, in index
+    return render_template('index.html')
+  File "e:\college\training\chatbot\call center bot\env\lib\site-packages\flask\templating.py", line 138, in render_template
+    ctx.app.jinja_env.get_or_select_template(template_name_or_list),
+  File "e:\college\training\chatbot\call center bot\env\lib\site-packages\jinja2\environment.py", line 930, in get_or_select_template
+    return self.get_template(template_name_or_list, parent, globals)
+  File "e:\college\training\chatbot\call center bot\env\lib\site-packages\jinja2\environment.py", line 883, in get_template
+    return self._load_template(name, self.make_globals(globals))
+  File "e:\college\training\chatbot\call center bot\env\lib\site-packages\jinja2\environment.py", line 857, in _load_template
+    template = self.loader.load(self, name, globals)
+  File "e:\college\training\chatbot\call center bot\env\lib\site-packages\jinja2\loaders.py", line 115, in load
+    source, filename, uptodate = self.get_source(environment, name)
+  File "e:\college\training\chatbot\call center bot\env\lib\site-packages\flask\templating.py", line 60, in get_source
+    return self._get_source_fast(environment, template)
+  File "e:\college\training\chatbot\call center bot\env\lib\site-packages\flask\templating.py", line 89, in _get_source_fast
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: index.html
+23-07-2020:02:17:54,620 ERROR [app.py:1892] Exception on / [GET]
+Traceback (most recent call last):
+  File "e:\college\training\chatbot\call center bot\env\lib\site-packages\flask\app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "e:\college\training\chatbot\call center bot\env\lib\site-packages\flask\app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "e:\college\training\chatbot\call center bot\env\lib\site-packages\flask\app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "e:\college\training\chatbot\call center bot\env\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "e:\college\training\chatbot\call center bot\env\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "e:\college\training\chatbot\call center bot\env\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "E:\College\Training\Chatbot\Call Center Bot\chatbot.py", line 30, in index
+    return render_template('template/index.html')
+  File "e:\college\training\chatbot\call center bot\env\lib\site-packages\flask\templating.py", line 138, in render_template
+    ctx.app.jinja_env.get_or_select_template(template_name_or_list),
+  File "e:\college\training\chatbot\call center bot\env\lib\site-packages\jinja2\environment.py", line 930, in get_or_select_template
+    return self.get_template(template_name_or_list, parent, globals)
+  File "e:\college\training\chatbot\call center bot\env\lib\site-packages\jinja2\environment.py", line 883, in get_template
+    return self._load_template(name, self.make_globals(globals))
+  File "e:\college\training\chatbot\call center bot\env\lib\site-packages\jinja2\environment.py", line 857, in _load_template
+    template = self.loader.load(self, name, globals)
+  File "e:\college\training\chatbot\call center bot\env\lib\site-packages\jinja2\loaders.py", line 115, in load
+    source, filename, uptodate = self.get_source(environment, name)
+  File "e:\college\training\chatbot\call center bot\env\lib\site-packages\flask\templating.py", line 60, in get_source
+    return self._get_source_fast(environment, template)
+  File "e:\college\training\chatbot\call center bot\env\lib\site-packages\flask\templating.py", line 89, in _get_source_fast
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: template/index.html
+23-07-2020:02:17:56,561 ERROR [app.py:1892] Exception on / [GET]
+Traceback (most recent call last):
+  File "e:\college\training\chatbot\call center bot\env\lib\site-packages\flask\app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "e:\college\training\chatbot\call center bot\env\lib\site-packages\flask\app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "e:\college\training\chatbot\call center bot\env\lib\site-packages\flask\app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "e:\college\training\chatbot\call center bot\env\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "e:\college\training\chatbot\call center bot\env\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "e:\college\training\chatbot\call center bot\env\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "E:\College\Training\Chatbot\Call Center Bot\chatbot.py", line 30, in index
+    return render_template('template/index.html')
+  File "e:\college\training\chatbot\call center bot\env\lib\site-packages\flask\templating.py", line 138, in render_template
+    ctx.app.jinja_env.get_or_select_template(template_name_or_list),
+  File "e:\college\training\chatbot\call center bot\env\lib\site-packages\jinja2\environment.py", line 930, in get_or_select_template
+    return self.get_template(template_name_or_list, parent, globals)
+  File "e:\college\training\chatbot\call center bot\env\lib\site-packages\jinja2\environment.py", line 883, in get_template
+    return self._load_template(name, self.make_globals(globals))
+  File "e:\college\training\chatbot\call center bot\env\lib\site-packages\jinja2\environment.py", line 857, in _load_template
+    template = self.loader.load(self, name, globals)
+  File "e:\college\training\chatbot\call center bot\env\lib\site-packages\jinja2\loaders.py", line 115, in load
+    source, filename, uptodate = self.get_source(environment, name)
+  File "e:\college\training\chatbot\call center bot\env\lib\site-packages\flask\templating.py", line 60, in get_source
+    return self._get_source_fast(environment, template)
+  File "e:\college\training\chatbot\call center bot\env\lib\site-packages\flask\templating.py", line 89, in _get_source_fast
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: template/index.html
+23-07-2020:02:17:57,963 ERROR [app.py:1892] Exception on / [GET]
+Traceback (most recent call last):
+  File "e:\college\training\chatbot\call center bot\env\lib\site-packages\flask\app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "e:\college\training\chatbot\call center bot\env\lib\site-packages\flask\app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "e:\college\training\chatbot\call center bot\env\lib\site-packages\flask\app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "e:\college\training\chatbot\call center bot\env\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "e:\college\training\chatbot\call center bot\env\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "e:\college\training\chatbot\call center bot\env\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "E:\College\Training\Chatbot\Call Center Bot\chatbot.py", line 30, in index
+    return render_template('template/index.html')
+  File "e:\college\training\chatbot\call center bot\env\lib\site-packages\flask\templating.py", line 138, in render_template
+    ctx.app.jinja_env.get_or_select_template(template_name_or_list),
+  File "e:\college\training\chatbot\call center bot\env\lib\site-packages\jinja2\environment.py", line 930, in get_or_select_template
+    return self.get_template(template_name_or_list, parent, globals)
+  File "e:\college\training\chatbot\call center bot\env\lib\site-packages\jinja2\environment.py", line 883, in get_template
+    return self._load_template(name, self.make_globals(globals))
+  File "e:\college\training\chatbot\call center bot\env\lib\site-packages\jinja2\environment.py", line 857, in _load_template
+    template = self.loader.load(self, name, globals)
+  File "e:\college\training\chatbot\call center bot\env\lib\site-packages\jinja2\loaders.py", line 115, in load
+    source, filename, uptodate = self.get_source(environment, name)
+  File "e:\college\training\chatbot\call center bot\env\lib\site-packages\flask\templating.py", line 60, in get_source
+    return self._get_source_fast(environment, template)
+  File "e:\college\training\chatbot\call center bot\env\lib\site-packages\flask\templating.py", line 89, in _get_source_fast
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: template/index.html
+23-07-2020:02:18:27,710 ERROR [app.py:1892] Exception on / [GET]
+Traceback (most recent call last):
+  File "e:\college\training\chatbot\call center bot\env\lib\site-packages\flask\app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "e:\college\training\chatbot\call center bot\env\lib\site-packages\flask\app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "e:\college\training\chatbot\call center bot\env\lib\site-packages\flask\app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "e:\college\training\chatbot\call center bot\env\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "e:\college\training\chatbot\call center bot\env\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "e:\college\training\chatbot\call center bot\env\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "E:\College\Training\Chatbot\Call Center Bot\chatbot.py", line 30, in index
+    return render_template('template/index.html')
+  File "e:\college\training\chatbot\call center bot\env\lib\site-packages\flask\templating.py", line 138, in render_template
+    ctx.app.jinja_env.get_or_select_template(template_name_or_list),
+  File "e:\college\training\chatbot\call center bot\env\lib\site-packages\jinja2\environment.py", line 930, in get_or_select_template
+    return self.get_template(template_name_or_list, parent, globals)
+  File "e:\college\training\chatbot\call center bot\env\lib\site-packages\jinja2\environment.py", line 883, in get_template
+    return self._load_template(name, self.make_globals(globals))
+  File "e:\college\training\chatbot\call center bot\env\lib\site-packages\jinja2\environment.py", line 857, in _load_template
+    template = self.loader.load(self, name, globals)
+  File "e:\college\training\chatbot\call center bot\env\lib\site-packages\jinja2\loaders.py", line 115, in load
+    source, filename, uptodate = self.get_source(environment, name)
+  File "e:\college\training\chatbot\call center bot\env\lib\site-packages\flask\templating.py", line 60, in get_source
+    return self._get_source_fast(environment, template)
+  File "e:\college\training\chatbot\call center bot\env\lib\site-packages\flask\templating.py", line 89, in _get_source_fast
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: template/index.html
+23-07-2020:02:20:42,647 ERROR [app.py:1892] Exception on / [GET]
+Traceback (most recent call last):
+  File "e:\college\training\chatbot\call center bot\env\lib\site-packages\flask\app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "e:\college\training\chatbot\call center bot\env\lib\site-packages\flask\app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "e:\college\training\chatbot\call center bot\env\lib\site-packages\flask\app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "e:\college\training\chatbot\call center bot\env\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "e:\college\training\chatbot\call center bot\env\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "e:\college\training\chatbot\call center bot\env\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "E:\College\Training\Chatbot\Call Center Bot\chatbot.py", line 30, in index
+    return render_template('template/index.html')
+  File "e:\college\training\chatbot\call center bot\env\lib\site-packages\flask\templating.py", line 138, in render_template
+    ctx.app.jinja_env.get_or_select_template(template_name_or_list),
+  File "e:\college\training\chatbot\call center bot\env\lib\site-packages\jinja2\environment.py", line 930, in get_or_select_template
+    return self.get_template(template_name_or_list, parent, globals)
+  File "e:\college\training\chatbot\call center bot\env\lib\site-packages\jinja2\environment.py", line 883, in get_template
+    return self._load_template(name, self.make_globals(globals))
+  File "e:\college\training\chatbot\call center bot\env\lib\site-packages\jinja2\environment.py", line 857, in _load_template
+    template = self.loader.load(self, name, globals)
+  File "e:\college\training\chatbot\call center bot\env\lib\site-packages\jinja2\loaders.py", line 115, in load
+    source, filename, uptodate = self.get_source(environment, name)
+  File "e:\college\training\chatbot\call center bot\env\lib\site-packages\flask\templating.py", line 60, in get_source
+    return self._get_source_fast(environment, template)
+  File "e:\college\training\chatbot\call center bot\env\lib\site-packages\flask\templating.py", line 89, in _get_source_fast
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: template/index.html
+23-07-2020:02:20:44,126 ERROR [app.py:1892] Exception on / [GET]
+Traceback (most recent call last):
+  File "e:\college\training\chatbot\call center bot\env\lib\site-packages\flask\app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "e:\college\training\chatbot\call center bot\env\lib\site-packages\flask\app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "e:\college\training\chatbot\call center bot\env\lib\site-packages\flask\app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "e:\college\training\chatbot\call center bot\env\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "e:\college\training\chatbot\call center bot\env\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "e:\college\training\chatbot\call center bot\env\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "E:\College\Training\Chatbot\Call Center Bot\chatbot.py", line 30, in index
+    return render_template('template/index.html')
+  File "e:\college\training\chatbot\call center bot\env\lib\site-packages\flask\templating.py", line 138, in render_template
+    ctx.app.jinja_env.get_or_select_template(template_name_or_list),
+  File "e:\college\training\chatbot\call center bot\env\lib\site-packages\jinja2\environment.py", line 930, in get_or_select_template
+    return self.get_template(template_name_or_list, parent, globals)
+  File "e:\college\training\chatbot\call center bot\env\lib\site-packages\jinja2\environment.py", line 883, in get_template
+    return self._load_template(name, self.make_globals(globals))
+  File "e:\college\training\chatbot\call center bot\env\lib\site-packages\jinja2\environment.py", line 857, in _load_template
+    template = self.loader.load(self, name, globals)
+  File "e:\college\training\chatbot\call center bot\env\lib\site-packages\jinja2\loaders.py", line 115, in load
+    source, filename, uptodate = self.get_source(environment, name)
+  File "e:\college\training\chatbot\call center bot\env\lib\site-packages\flask\templating.py", line 60, in get_source
+    return self._get_source_fast(environment, template)
+  File "e:\college\training\chatbot\call center bot\env\lib\site-packages\flask\templating.py", line 89, in _get_source_fast
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: template/index.html
+23-07-2020:02:25:03,581 ERROR [app.py:1892] Exception on / [GET]
+Traceback (most recent call last):
+  File "e:\college\training\chatbot\call center bot\env\lib\site-packages\flask\app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "e:\college\training\chatbot\call center bot\env\lib\site-packages\flask\app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "e:\college\training\chatbot\call center bot\env\lib\site-packages\flask\app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "e:\college\training\chatbot\call center bot\env\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "e:\college\training\chatbot\call center bot\env\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "e:\college\training\chatbot\call center bot\env\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "E:\College\Training\Chatbot\Call Center Bot\chatbot.py", line 30, in index
+    return render_template("template/index.html")
+  File "e:\college\training\chatbot\call center bot\env\lib\site-packages\flask\templating.py", line 138, in render_template
+    ctx.app.jinja_env.get_or_select_template(template_name_or_list),
+  File "e:\college\training\chatbot\call center bot\env\lib\site-packages\jinja2\environment.py", line 930, in get_or_select_template
+    return self.get_template(template_name_or_list, parent, globals)
+  File "e:\college\training\chatbot\call center bot\env\lib\site-packages\jinja2\environment.py", line 883, in get_template
+    return self._load_template(name, self.make_globals(globals))
+  File "e:\college\training\chatbot\call center bot\env\lib\site-packages\jinja2\environment.py", line 857, in _load_template
+    template = self.loader.load(self, name, globals)
+  File "e:\college\training\chatbot\call center bot\env\lib\site-packages\jinja2\loaders.py", line 115, in load
+    source, filename, uptodate = self.get_source(environment, name)
+  File "e:\college\training\chatbot\call center bot\env\lib\site-packages\flask\templating.py", line 60, in get_source
+    return self._get_source_fast(environment, template)
+  File "e:\college\training\chatbot\call center bot\env\lib\site-packages\flask\templating.py", line 89, in _get_source_fast
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: template/index.html
+23-07-2020:02:30:00,936 ERROR [app.py:1892] Exception on / [GET]
+Traceback (most recent call last):
+  File "e:\college\training\chatbot\call center bot\env\lib\site-packages\flask\app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "e:\college\training\chatbot\call center bot\env\lib\site-packages\flask\app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "e:\college\training\chatbot\call center bot\env\lib\site-packages\flask\app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "e:\college\training\chatbot\call center bot\env\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "e:\college\training\chatbot\call center bot\env\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "e:\college\training\chatbot\call center bot\env\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "E:\College\Training\Chatbot\Call Center Bot\chatbot.py", line 30, in index
+    return render_template("templates/index.html")
+  File "e:\college\training\chatbot\call center bot\env\lib\site-packages\flask\templating.py", line 138, in render_template
+    ctx.app.jinja_env.get_or_select_template(template_name_or_list),
+  File "e:\college\training\chatbot\call center bot\env\lib\site-packages\jinja2\environment.py", line 930, in get_or_select_template
+    return self.get_template(template_name_or_list, parent, globals)
+  File "e:\college\training\chatbot\call center bot\env\lib\site-packages\jinja2\environment.py", line 883, in get_template
+    return self._load_template(name, self.make_globals(globals))
+  File "e:\college\training\chatbot\call center bot\env\lib\site-packages\jinja2\environment.py", line 857, in _load_template
+    template = self.loader.load(self, name, globals)
+  File "e:\college\training\chatbot\call center bot\env\lib\site-packages\jinja2\loaders.py", line 115, in load
+    source, filename, uptodate = self.get_source(environment, name)
+  File "e:\college\training\chatbot\call center bot\env\lib\site-packages\flask\templating.py", line 60, in get_source
+    return self._get_source_fast(environment, template)
+  File "e:\college\training\chatbot\call center bot\env\lib\site-packages\flask\templating.py", line 89, in _get_source_fast
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: templates/index.html
+23-07-2020:02:31:26,309 ERROR [app.py:1892] Exception on / [GET]
+Traceback (most recent call last):
+  File "e:\college\training\chatbot\call center bot\env\lib\site-packages\flask\app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "e:\college\training\chatbot\call center bot\env\lib\site-packages\flask\app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "e:\college\training\chatbot\call center bot\env\lib\site-packages\flask\app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "e:\college\training\chatbot\call center bot\env\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "e:\college\training\chatbot\call center bot\env\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "e:\college\training\chatbot\call center bot\env\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "E:\College\Training\Chatbot\Call Center Bot\chatbot.py", line 30, in index
+    return render_template('index.html')
+  File "e:\college\training\chatbot\call center bot\env\lib\site-packages\flask\templating.py", line 138, in render_template
+    ctx.app.jinja_env.get_or_select_template(template_name_or_list),
+  File "e:\college\training\chatbot\call center bot\env\lib\site-packages\jinja2\environment.py", line 930, in get_or_select_template
+    return self.get_template(template_name_or_list, parent, globals)
+  File "e:\college\training\chatbot\call center bot\env\lib\site-packages\jinja2\environment.py", line 883, in get_template
+    return self._load_template(name, self.make_globals(globals))
+  File "e:\college\training\chatbot\call center bot\env\lib\site-packages\jinja2\environment.py", line 857, in _load_template
+    template = self.loader.load(self, name, globals)
+  File "e:\college\training\chatbot\call center bot\env\lib\site-packages\jinja2\loaders.py", line 115, in load
+    source, filename, uptodate = self.get_source(environment, name)
+  File "e:\college\training\chatbot\call center bot\env\lib\site-packages\flask\templating.py", line 60, in get_source
+    return self._get_source_fast(environment, template)
+  File "e:\college\training\chatbot\call center bot\env\lib\site-packages\flask\templating.py", line 89, in _get_source_fast
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: index.html
+23-07-2020:02:32:29,460 ERROR [app.py:1892] Exception on / [GET]
+Traceback (most recent call last):
+  File "e:\college\training\chatbot\call center bot\env\lib\site-packages\flask\app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "e:\college\training\chatbot\call center bot\env\lib\site-packages\flask\app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "e:\college\training\chatbot\call center bot\env\lib\site-packages\flask\app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "e:\college\training\chatbot\call center bot\env\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "e:\college\training\chatbot\call center bot\env\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "e:\college\training\chatbot\call center bot\env\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "E:\College\Training\Chatbot\Call Center Bot\chatbot.py", line 30, in index
+    return render_template('index.html')
+  File "e:\college\training\chatbot\call center bot\env\lib\site-packages\flask\templating.py", line 138, in render_template
+    ctx.app.jinja_env.get_or_select_template(template_name_or_list),
+  File "e:\college\training\chatbot\call center bot\env\lib\site-packages\jinja2\environment.py", line 930, in get_or_select_template
+    return self.get_template(template_name_or_list, parent, globals)
+  File "e:\college\training\chatbot\call center bot\env\lib\site-packages\jinja2\environment.py", line 883, in get_template
+    return self._load_template(name, self.make_globals(globals))
+  File "e:\college\training\chatbot\call center bot\env\lib\site-packages\jinja2\environment.py", line 857, in _load_template
+    template = self.loader.load(self, name, globals)
+  File "e:\college\training\chatbot\call center bot\env\lib\site-packages\jinja2\loaders.py", line 115, in load
+    source, filename, uptodate = self.get_source(environment, name)
+  File "e:\college\training\chatbot\call center bot\env\lib\site-packages\flask\templating.py", line 60, in get_source
+    return self._get_source_fast(environment, template)
+  File "e:\college\training\chatbot\call center bot\env\lib\site-packages\flask\templating.py", line 89, in _get_source_fast
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: index.html
