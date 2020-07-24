@@ -1,2 +1,22 @@
 + *
-- hello
+- hello, would you like to make a phone call? {topic=call}
+
+> topic call
++ yes
+- please type the number you want to call {topic=call}
+<topic
+
+> topic call
++*
+-calling... no response, would you like to leave a voice message? {topic=vn}
+<topic
+
+>topic vn
++yes
+-recording
++no
+-ending call...
+<topic
+
++*
+-would you like to make a phone call? {topic=call}
