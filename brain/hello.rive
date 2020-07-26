@@ -1,14 +1,36 @@
-+ *
-- hello, would you like to make a phone call? {topic=call}
+! version = 2.0
 
-> topic call
-+ yes
-- please type the number you want to call {topic=call}
+> object check_order python
+    import pymongo
+    from pymongo import MongoClient
+    import json
+    from bson import json_util
+
+    cluster = MongoClient("mongodb+srv://Omar:123321@cluster0.tyyw9.mongodb.net/Callcenter?retryWrites=true&w=majority")
+    db = cluster["callcenter1"]
+    collection = db["customers"]
+
+    order, name =args
+
+    collection.insert({order:order, name:name})
+
+< object
+
++ *
+- hello, would you like to submit a complaint? {topic=complaint}
+
+> topic complaint
++ (yes|y|yeah)
+- please enter your name
++ *
+- <set name=<star>>Hi <get name>\n
+^ please enter yout order number {topic=order}
 <topic
 
-> topic call
-+*
--calling... no response, would you like to leave a voice message? {topic=vn}
+> topic order
++ *
+- looking for your order \n
+^ <call>check_order <star> <get name></call>order found
 <topic
 
 >topic vn

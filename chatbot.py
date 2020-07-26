@@ -8,7 +8,14 @@ from logging import FileHandler, Formatter
 
 from flask import Flask, render_template, jsonify, request, Response
 from rivescript import RiveScript
+import pymongo
+from pymongo import MongoClient
+import json
+from bson import json_util
 
+cluster = MongoClient("mongodb+srv://Omar:123321@cluster0.tyyw9.mongodb.net/Callcenter?retryWrites=true&w=majority")
+db = cluster["callcenter1"]
+collection = db["food orders"]
 
 
 app = Flask(__name__, template_folder='templates')
@@ -41,3 +48,9 @@ def reply():
     user_msg = request.json['userMsg']
     botreply = bot.reply('localuser', user_msg)
     return jsonify({"reply": botreply})
+
+@app.route('/orders', methods=['GET'])
+def get_orders():
+    z = list(collection.find({"Order Number":"16118"}))
+    return json.dumps(z, default=json_util.default)
+    
