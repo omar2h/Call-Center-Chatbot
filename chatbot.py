@@ -17,9 +17,7 @@ cluster = MongoClient("mongodb+srv://Omar:123321@cluster0.tyyw9.mongodb.net/Call
 db = cluster["callcenter1"]
 collection = db["food orders"]
 
-
 app = Flask(__name__, template_folder='templates')
-
 
 # initialize RiveScript stuff
 bot = RiveScript()
